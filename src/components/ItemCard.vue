@@ -19,12 +19,10 @@
 </template>
 
 <script lang="ts">
-import {Component, Vue} from 'vue-property-decorator'
+import {Component, Vue} from 'vue-property-decorator';
 
 @Component
-export default class ItemCard extends Vue {
-
-}
+export default class ItemCard extends Vue {}
 </script>
 
 <style scoped lang="less">

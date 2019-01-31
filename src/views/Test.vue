@@ -9,13 +9,11 @@ import {Component, Vue} from 'vue-property-decorator';
 import ListView from '@/components/ListView.vue';
 
 @Component({
-	components: {
-		ListView
-	}
+    components: {
+        ListView,
+    },
 })
-export default class Test extends Vue {
-
-}
+export default class Test extends Vue {}
 </script>
 
 <style scoped lang="less">

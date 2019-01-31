@@ -9,15 +9,15 @@
 </template>
 
 <script lang="ts">
-import {Component, Prop, Vue} from 'vue-property-decorator';
-import ItemCard from "@/components/ItemCard.vue"
+import {Component, Vue} from 'vue-property-decorator';
+import ItemCard from "@/components/ItemCard.vue";
 
 @Component({
-	components: {ItemCard}
+	components: {
+	    ItemCard,
+	},
 })
-export default class ListView extends Vue {
-	@Prop() private msg!: string;
-}
+export default class ListView extends Vue {}
 </script>
 
 <style scoped lang="less">
